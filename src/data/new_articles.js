@@ -1,83 +1,88 @@
-import Article1 from "../images/article1.jpg";
+import Article1 from "../images/article1.JPG";
 import Article2 from "../images/article2.jpg";
-import Article3 from "../images/article3.jpg";
-import Article4 from "../images/article4.jpg";
-import Article5 from "../images/article5.jpg";
+import Article3 from "../images/article3.JPG";
+import Article4 from "../images/article4.jpeg";
+import Article5 from "../images/article5.JPG";
 import Article6 from "../images/article6.jpg";
-import Article7 from "../images/article7.jpg";
+import Article7 from "../images/article7.JPG";
+import Article8 from "../images/article8.JPG";
+import Article9 from "../images/article9.jpg";
+import Article10 from "../images/article10.JPG";
+import Article11 from "../images/article11.jpg";
+import Article12 from "../images/article12.png";
 
 export const articledata = {
     "0" : {
         article_source: Article1,
-        article_title: "The Aim of the Edit",
-        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs19210117-01.2.14&srpos=141&e=-------en-20-cs-141--txt-txIN-editorial------ ",
-        article_date: "Jan. 17, 1921"
+        article_title: "Stop system spreading",
+        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs19891012-01.2.20&srpos=68&e=------198-en-20-cs-61--txt-txIN-gate------",
+        article_date: "October 12, 1989"
     },
     "1" : {
         article_source: Article2,
-        article_title: "News in White and White",
-        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20040326-01.2.23&srpos=2&e=-------en-20-cs-1--txt-txIN-%22opinion+staff%22----2004--#documentdisplayleftpanesectionleveltabcontent",
-        article_date: "March 26, 2004"
+        article_title: "Secure Yourself",
+        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs19961125-01.2.11&srpos=29&e=------199-en-20-cs-21--txt-txIN-gate------",
+        article_date: "November 25, 1996"
     },
     "2" : {
         article_source: Article3,
-        article_title: "Letter to the Editor: Opinion Editors Must Preserve Their Independence",
-        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20041015-01.2.18&srpos=6&e=-------en-20-cs-1--txt-txIN-editorial+staff+mission------",
-        article_date: "Oct. 11, 2004"
+        article_title: "Swipe Access for All",
+        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20001116-01.2.17&srpos=40&e=-------en-20-cs-21--txt-txIN-swipe+access------",
+        article_date: "November 16, 2000"
     },
     "3" : {
         article_source: Article4,
-        article_title: "This Is How We Do It",
-        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20080218-01.2.28&srpos=106&e=-------en-20-cs-101--txt-txIN-editorial------",
-        article_date: "Feb. 18, 2008"
+        article_title: "Barnard Students Do Not Need Columbia Swipe Access",
+        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20010221-01.2.18&srpos=1&e=-------en-20-cs-1--txt-txIN-swipe+access------",
+        article_date: "February 21, 2001"
     },
     "4" : {
         article_source: Article5,
-        article_title: "Discourses discord",
-        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20100301-01.2.21&srpos=5&e=------201-en-20--1--txt-txIN-Purpose+of+the+Editorial+Page------",
-        article_date: "March 1, 2010"
+        article_title: "No Excuses, Just Swipe",
+        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20041208-01.2.17&srpos=3&e=-------en-20-cs-1--txt-txIN-swipe+access------",
+        article_date: "December 8, 2004"
     },
     "5" : {
         article_source: Article6,
-        article_title: "How to write an opinion column",
-        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20100419-01.2.23&srpos=1&e=------201-en-20--1--txt-txIN-How+to+write+an+opinion+column------",
-        article_date: "April 19, 2010"
+        article_title: "Swipe, Not Swastikas",
+        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20041116-01.2.31&srpos=53&e=-------en-20-cs-41--txt-txIN-swipe+access------",
+        article_date: "November 16, 2004"
     },
     "6" : {
         article_source: Article7,
-        article_title: "Being a good editor, on and off the page",
-        article_link: "https://www.columbiaspectator.com/opinion/2019/05/20/being-a-good-editor-on-and-off-the-page/",
-        article_date: "May 20, 2019"
+        article_title: "Finances, Liabilities Make Flash Access Our Best Bet",
+        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20060126-01.2.20&srpos=39&e=-------en-20-cs-21--txt-txIN-swipe+access------",
+        article_date: "January 26, 2006"
     },
     "7" : {
-        article_source: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VU6YBEBKX5CH3NMX4JLMBMBOJY.jpeg",
-        article_title: "Letter from the Editor: Why we published op-eds arguing against the mask mandate on campus,",
-        article_link: "https://www.columbiaspectator.com/opinion/2022/02/28/letter-from-the-editor-why-we-published-op-eds-arguing-against-the-mask-mandate-on-campus/",
-        article_date: "Feb. 28, 2022"
+        article_source: Article8,
+        article_title: "Hacking Lessons: Personal information should be better protected",
+        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20060908-01.2.26&srpos=135&e=-------en-20-cs-121--txt-txIN-swipe+access------",
+        article_date: "September 8, 2006"
     },
     "8" : {
-        article_source: "https://www.columbiaspectator.com/resizer/v2/EDXUGLJGJBHDNJJJ2FRUG644LE.jpeg?auth=6718354a3d0e0266bcb13daa432e0999a713d866f3f661117ee83c0fff72d113",
-        article_title: "Letter from the Editor: We need your voices now more than ever,",
-        article_link: "https://www.columbiaspectator.com/resizer/v2/EDXUGLJGJBHDNJJJ2FRUG644LE.jpeg?auth=6718354a3d0e0266bcb13daa432e0999a713d866f3f661117ee83c0fff72d113",
-        article_date: "Oct. 18, 2023"
+        article_source: Article9,
+        article_title: "Undergraduate councils must take universal swipe access seriously",
+        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20080222-01.2.16&srpos=5&e=-------en-20-cs-1--txt-txIN-swipe+access------",
+        article_date: "February 22, 2008"
     },
     "9" : {
-        article_source: "https://www.columbiaspectator.com/resizer/v2/FEMZ4NNEP5HZNPHN5HKACQL7W4.jpg?auth=6f7c541e76334486e5d606708f605e44caedacd886b316b38e7306620e3e06fb",
-        article_title: "Letter from the Editor: What we owe each other",
-        article_link: "https://www.columbiaspectator.com/opinion/2024/08/25/letter-from-the-editor-what-we-owe-each-other/",
-        article_date: "Aug. 24, 2024"
+        article_source: Article10,
+        article_title: "Not enough is done for GS swipe access",
+        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20091119-01.2.27&srpos=54&e=-------en-20-cs-41--txt-txIN-swipe+access------",
+        article_date: "November 19, 2009"
     },
     "10" : {
-        article_source: "https://www.columbiaspectator.com/resizer/v2/TTWQHRUPNJGOXHFWCTTXABDJPU.jpeg?auth=be5529533711742cf4ec0ee0f7cb834ef45087d2c44306b208c3b34bc4577afd",
-        article_title: "The purpose of Opinion",
-        article_link: "https://www.columbiaspectator.com/opinion/2025/03/23/the-purpose-of-opinion/ ",
-        article_date: "March 23, 2025"
+        article_source: Article11,
+        article_title: "In the waiting line",
+        article_link: "https://archive-publications.library.columbia.edu/?a=d&d=cs20111021-01.2.18&srpos=16&e=------201-en-20-cs-1--txt-txIN-swipe+access------",
+        article_date: "October 21, 2011"
     },
     "11" : {
-        article_source: "https://www.columbiaspectator.com/resizer/v2/62XSCYI4SVETXNP7ZBTRF25OOY.png?auth=98847183246af9687be511c4aaaaa9e32e8aae73ec853c4edb0aabd34ff353b4",
-        article_title: "Letter from the Editor: With the media in crisis, the editorial page matters more than ever",
-        article_link: "https://www.columbiaspectator.com/opinion/2025/09/23/letter-from-the-editor-with-the-media-in-crisis-the-editorial-page-matters-more-than-ever/",
-        article_date: "Sept. 23, 2025"
+        article_source: Article12,
+        article_title: "Pandemic to public safety: The shifting purpose of campus swipe access",
+        article_link: "https://www.columbiaspectator.com/opinion/2024/04/12/pandemic-to-public-safety-the-shifting-purpose-of-campus-swipe-access/",
+        article_date: "April 12, 2024"
     }
     
 }
