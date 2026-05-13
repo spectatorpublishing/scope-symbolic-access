@@ -96,6 +96,29 @@ const ArticleDate = styled.div`
     }
 `;
 
+const FooterText = styled.div`
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    font-family: 'Lora, serif';
+
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+    }
+`;
+
+const EmailLink = styled.a`
+    color: #3b82f6;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+`;
+
 const NewArticles = () => {
     const articles = Object.keys(articledata)
         .sort((a, b) => Number(a) - Number(b))
@@ -117,6 +140,7 @@ const NewArticles = () => {
                     </ArticleCard>
                 ))}
             </GridWrapper>
+            <FooterText>To respond to this Scope, or to submit an op-ed, contact <EmailLink href="mailto:opinion@columbiaspectator.com">opinion@columbiaspectator.com</EmailLink>.</FooterText>
         </ArticleWrapper>
     );
 };

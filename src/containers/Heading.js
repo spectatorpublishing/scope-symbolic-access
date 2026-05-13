@@ -145,11 +145,11 @@ const Heading = () => {
                 </div>
                 <Headline>
                     <SectionTitle>OPINION ARCHIVE</SectionTitle>
-                    <Title>‘Matter of opinion’: Notes toward an unsettled purpose
+                    <Title> ‘Symbolic Access’: A history of controlled entry at Columbia
                     </Title>
                     <Credits>
                         <p>Illustration By Saumya Chaudhry</p>
-                        <p>Engineering By Julien Remy</p>
+                        <p>Engineering By Shriya Mani</p>
                     </Credits>
                 </Headline>
             </CoverWrapper>
